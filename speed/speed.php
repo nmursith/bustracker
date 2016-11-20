@@ -41,9 +41,10 @@ body {
     <div id="insidecontent">
       <?php require_once "../menu.html"; ?>
      <form action="" method="post"><fieldset>
-     <table>
-			 <tr><td>Bus no:</td><td>
-         <select name="busno">
+     <table align= "center">
+			 <tr><td align= "left">Bus no:</td><td>
+         <div align= "left" >
+		 <select name="busno" >
          <?php
             $query = "SELECT DISTINCT bus_no FROM map_points";
             $db = new DB();
@@ -59,9 +60,10 @@ body {
   <?php      }  ?>
 
 				 </select>
+				 </div>
 			 </td></tr>
-     <tr><td>From date&time:</td><td><input type="date" name="fdate"/></td></tr>
-    <tr><td>To date&time:</td><td><input type="date" name="tdate" /></td></tr>
+     <tr><td align= "left">From date&time:</td><td><input type="date" name="fdate" /></td></tr>
+    <tr><td align= "left">To date&time:</td><td><input type="date" name="tdate" /></td></tr>
 	  </table>
     <input name="submit" type="submit" value="ok" /><br/>
     </fieldset>

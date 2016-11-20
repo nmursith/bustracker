@@ -72,7 +72,7 @@ body {
     <form method="post" >
     <fieldset>
     <table  align="center">
-    <tr><td><label> User id:</label></td><td> <input name="userid" type="text" size="50" /></td></tr>
+    <tr><td><label> User id:</label></td><td> <input name="userid" type="text" size="25" /></td></tr>
 
    <tr><td><label>Old password:</label> </td><td><input name="oldpassword" type="password" size="25" /></td></tr>
 

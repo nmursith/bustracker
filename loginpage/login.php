@@ -58,27 +58,28 @@ body {
 <div id="container">
   <div id="content">
   <img src="images (2).jpg" alt="" width="637" height="166" />
- <h1>GPS TRACKING SYSTEM FOR VEHICLES</h1>
+ <h1>GPS TRACKING SYSTEM FOR HIGHWAY BUSES</h1>
     <div id="insidecontent"> <br>
-    Log in
+    Login
      <form action="login.php" method="post">
                <br/>
         <table align="center">
           <tr>
-            <td>UserType:</td>
-            <td>
-              <select name="usertype">
+            <td align = "left">UserType:</td>
+            <td align = "left" >
+
+              <select name="usertype"  >
                 <option>Admin</option>
                 <option>User</option>
               </select>
             </td>
           </tr>
           <tr>
-            <td>User id:</td>
+            <td align = "left" >User id:</td>
             <td><input name="userid" type="text" /></td>
           </tr>
           <tr>
-            <td>Password:</td>
+            <td align = "left">Password:</td>
             <td><input name="password" type="password" /></td>
           </tr>
         </table>
@@ -95,7 +96,7 @@ body {
 
 
 
-  <div id="footer"> <span>TRACK YOUR FLEET IN REAL TIME  </span>
+  <div id="footer"> <span>copyrights as Group No-12, Faculty of Engineering, University of Ruhuna  </span>
   </div>
 
 </div>

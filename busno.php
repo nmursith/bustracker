@@ -9,10 +9,12 @@
       <div class="panel-body">
         <form>
               <div class="form-group">
-                <label for="exampleInputEmail1">Bus No</label>
+                <label for="exampleInputEmail1" >Bus No</label>
                 <input type="text" class="form-control" id="busno" placeholder="Bus No">
               </div>
-              <button type="button" class="btn btn-primary" id="submit">Submit</button>
+              <div align = "center">
+			  <button type="button" class="btn btn-primary" id="submit" >Submit</button>
+			  <div>
         </form>
       </div>
     </div>
