@@ -17,7 +17,7 @@
         <li><a href="report_setup.php">HISTORY</a></li>
         <li><a href="speed/speed.php">VEHICLE_SPEED</a></li>
         <li><a href="bus fault detection/busfault detection.html">VEHICLE_FAULT</a></li>
-        <li><a style='padding-left:1100px;' href="index.php">Logout</a></li>
+        <li><a href="index.php">Logout</a></li>
       </ul>
     </div>
     <br>
