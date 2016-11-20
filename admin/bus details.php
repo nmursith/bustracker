@@ -84,7 +84,7 @@
 Driver name:</td><td><input name="drivername" type="text" /></td></tr>
 <tr><td>
 Contact no:</td><td><input name="contact" type="text" /></td></tr></table>
-<input name="submit" type="submit" value="ok" id="ok"/>
+<input style = "margin:0px 0px 0px 92px" name="submit" type="submit" value="ok" id="ok"/>
     </form></div>
   </div>
 

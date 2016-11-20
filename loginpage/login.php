@@ -75,7 +75,7 @@ body {
             </td>
           </tr>
           <tr>
-            <td align = "left" >User id:</td>
+            <td align = "left" >User ID:</td>
             <td><input name="userid" type="text" /></td>
           </tr>
           <tr>
@@ -84,7 +84,7 @@ body {
           </tr>
         </table>
 
-       <input name="log in" type="submit" value="Login" name="log_in" />
+       <input name="log in" type="submit" value="Login" name="log_in"  style = "margin:0px 0px 0px 15px"  />
      </form>
      <br/>
     </div>

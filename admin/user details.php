@@ -82,16 +82,16 @@
 <body>
 <div id="container">
   <div id="content">
-    <div id="insidecontent"><h1>User details</h1><form action="" method="post">
+    <div id="insidecontent"><h1>User Details</h1><form action="" method="post">
       <table><tr><td>User name:</td><td><input name="username" type="text" /><br/></td></tr>
 <tr><td>User NIC no:</td><td><input name="nic" type="text" /></td></tr>
 <tr><td>
 User contact:</td><td><input name="contact" type="text" /></td></tr>
 <tr><td>
-User id:</td><td><input name="userid" type="text" /></td></tr>
+User ID:</td><td><input name="userid" type="text" /></td></tr>
 <tr><td>
 Password:</td><td><input name="password" type="password" /></td></tr></table>
-<input name="submit" type="submit" value="Ok" id="ok"/>
+<input name="submit" type="submit" value="Ok" id="ok"  style = "margin:0px 0px 0px 92px" />
     </form>
   </div>
 
@@ -105,9 +105,9 @@ Password:</td><td><input name="password" type="password" /></td></tr></table>
        <table border="1" style="width:100%;">
          <tr>
            <td>Name</td>
-           <td>Nic</td>
+           <td>NIC</td>
            <td>Contact</td>
-           <td>UserId</td>
+           <td>UserID</td>
          </tr>
 
       <?php
