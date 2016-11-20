@@ -9,14 +9,15 @@
     <link rel="stylesheet" type="text/css" href="mainpage/mainpagecss.css" media="screen" />
   </head>
   <body>
-    <p><a href="index.php">Logout</a></p>
+    <!-- <p><a href="index.php">Logout</a></p> -->
     <div id="menu">
       <ul>
         <li><a href="user setting/user settings.php"> USER_SETTINGS</a></li>
         <li><a href="busno.php">LIVE_MAP</a></li>
         <li><a href="report_setup.php">HISTORY</a></li>
         <li><a href="speed/speed.php">VEHICLE_SPEED</a></li>
-         <li><a href="bus fault detection/busfault detection.html">VEHICLE_FAULT</a></li>
+        <li><a href="bus fault detection/busfault detection.html">VEHICLE_FAULT</a></li>
+        <li><a style='padding-left:1100px;' href="index.php">Logout</a></li>
       </ul>
     </div>
     <br>
